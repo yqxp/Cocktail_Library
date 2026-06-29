@@ -1,0 +1,95 @@
+/* ─── THEME: STARLIGHT (默认) ─── */
+[data-theme="starlight"] {
+    --bg: #060d1a;
+    --surface: #0d1628;
+    --surface-hover: #15203a;
+    --border: #1c2d48;
+    --gold: #c8aa6e;
+    --gold-rgb: 200,170,110;
+    --gold-dim: #8a7550;
+    --text: #c5cddb;
+    --text-dim: #7e8694;
+    --text-bright: #e4ebf5;
+    --accent: #b8a880;
+
+    --danger-border: #4a2230;
+    --danger-color: #c87080;
+    --danger-hover: #e090a0;
+
+    --tag-sour-border: #4a6e58;
+    --tag-sour-color: #6ea882;
+    --tag-sweet-border: #6e4a58;
+    --tag-sweet-color: #b87a8e;
+    --tag-bitter-border: #4a4a5e;
+    --tag-bitter-color: #7a7ab0;
+    --tag-creamy-border: #5e5e6e;
+    --tag-creamy-color: #a0a0c0;
+    --tag-refreshing-border: #3e5e6e;
+    --tag-refreshing-color: #5aa8c4;
+    --tag-dry-border: #5a5a6a;
+    --tag-dry-color: #8888aa;
+    --tag-fruity-border: #6e3e5e;
+    --tag-fruity-color: #b86ea0;
+    --tag-herbal-border: #3e5e3e;
+    --tag-herbal-color: #5e9e4e;
+    --tag-smoky-border: #4e4e5e;
+    --tag-smoky-color: #7e7e9e;
+    --tag-strong-border: #6e3e3e;
+    --tag-strong-color: #b86e6e;
+    --tag-floral-border: #5e3e6e;
+    --tag-floral-color: #a06eb8;
+    --tag-spicy-border: #6e5e3e;
+    --tag-spicy-color: #b89e5e;
+
+    --theme-btn-active-bg: rgba(200,170,110,0.12);
+    --theme-btn-active-border: #8a7550;
+    --theme-btn-active-color: #c8aa6e;
+}
+
+/* ─── THEME: CLASSIC 经典暖棕 ─── */
+[data-theme="classic"] {
+    --bg: #0d0b0a;
+    --surface: #1a1513;
+    --surface-hover: #2a221f;
+    --border: #2a221f;
+    --gold: #b8945a;
+    --gold-rgb: 184,148,90;
+    --gold-dim: #8a6f3e;
+    --text: #d4c8b8;
+    --text-dim: #9e8d7a;
+    --text-bright: #efe5d5;
+    --accent: #c4a46e;
+
+    --danger-border: #3d1c28;
+    --danger-color: #c87080;
+    --danger-hover: #e090a0;
+
+    --tag-sour-border: #5a7042;
+    --tag-sour-color: #7e9a5e;
+    --tag-sweet-border: #7a4e5a;
+    --tag-sweet-color: #b87a8a;
+    --tag-bitter-border: #5a4e5e;
+    --tag-bitter-color: #8a7aaa;
+    --tag-creamy-border: #6e6860;
+    --tag-creamy-color: #b0a898;
+    --tag-refreshing-border: #48686e;
+    --tag-refreshing-color: #5e9aaa;
+    --tag-dry-border: #686468;
+    --tag-dry-color: #989498;
+    --tag-fruity-border: #7a4e62;
+    --tag-fruity-color: #b87a98;
+    --tag-herbal-border: #4e6240;
+    --tag-herbal-color: #6e8a5e;
+    --tag-smoky-border: #5e5a5a;
+    --tag-smoky-color: #968e8e;
+    --tag-strong-border: #7a4850;
+    --tag-strong-color: #b87078;
+    --tag-floral-border: #6e4e70;
+    --tag-floral-color: #a878b0;
+    --tag-spicy-border: #786848;
+    --tag-spicy-color: #b89868;
+
+    --theme-btn-active-bg: rgba(184,148,90,0.12);
+    --theme-btn-active-border: #8a6f3e;
+    --theme-btn-active-color: #b8945a;
+}
