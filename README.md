@@ -1,9 +1,9 @@
-🥃 Cocktail Library（酒谱）
-🇨🇳 中文版
+# 🥃 Cocktail Library（酒谱）
+## 🇨🇳 中文版
 一个轻量、纯前端的鸡尾酒配方管理工具，适合喜欢调酒、想要整理个人配方的用户使用。
 本项目完全在浏览器中运行，无需后端、无需数据库，所有用户数据均通过 localStorage 保存在本地设备中。
 
-⭐ 功能特点
+### ⭐ 功能特点
 添加自定义鸡尾酒配方  
 在浏览器中直接创建并保存属于你的配方。
 
@@ -25,7 +25,7 @@ localStorage 持久化存储
 纯前端、无需安装  
 无需服务器即可运行，可部署在任何静态托管平台。
 
-📦 工作原理
+### 📦 工作原理
 Cocktail Library 完全由：
 
 HTML
@@ -51,14 +51,14 @@ JavaScript
 👉 不能直接双击打开 index.html 运行  
 👉 必须通过 本地服务器 或使用 线上 Demo
 
-🚀 在线体验（Live Demo）
+### 🚀 在线体验（Live Demo）
 你可以直接访问线上版本：
 
 https://yqxp.github.io/Cocktail_Library
 
 无需安装、无需配置。
 
-🛠 本地运行方式
+### 🛠 本地运行方式
 由于项目使用了 ES Modules，必须通过本地服务器运行，例如：
 
 方法一：使用 VS Code Live Server
@@ -73,19 +73,19 @@ py -3 -m http.server 8080
 
 代码
 http://localhost:8080
-🔒 数据存储说明
+### 🔒 数据存储说明
 所有用户数据均存储在浏览器的：
 
 代码
 localStorage
 要重置应用，只需清除浏览器的 localStorage。
 
-🇬🇧 English Version
+## 🇬🇧 English Version
 A lightweight, browser‑based cocktail recipe manager designed for people who enjoy mixology and want a simple way to organize their own recipes.
 This project is a pure front‑end web application — no backend, no database, no server required.
 All user data is stored locally using localStorage, making it fast, private, and easy to use.
 
-⭐ Features
+### ⭐ Features
 Add your own cocktail recipes  
 Create and save custom recipes directly in your browser.
 
@@ -107,7 +107,7 @@ Track what bottles you currently have at home.
 No installation required  
 Runs entirely in the browser and can be hosted anywhere.
 
-📦 How It Works
+### 📦 How It Works
 This project is built entirely with:
 
 HTML
@@ -131,7 +131,7 @@ Because the project uses ES Modules:
 👉 You cannot run it by opening index.html directly  
 👉 You must use a local server or the Live Demo
 
-🚀 Live Demo
+### 🚀 Live Demo
 Try the hosted version here:
 
 https://yqxp.github.io/Cocktail_Library
@@ -153,7 +153,7 @@ Then open:
 
 代码
 http://localhost:8080
-🔒 Data Storage
+### 🔒 Data Storage
 All user‑generated content is stored in:
 
 代码
