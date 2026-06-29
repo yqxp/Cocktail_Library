@@ -1,22 +1,161 @@
-# 🍸 鸡尾酒数据库 (The Cocktail Library)
+🥃 Cocktail Library（酒谱）
+🇨🇳 中文版
+一个轻量、纯前端的鸡尾酒配方管理工具，适合喜欢调酒、想要整理个人配方的用户使用。
+本项目完全在浏览器中运行，无需后端、无需数据库，所有用户数据均通过 localStorage 保存在本地设备中。
 
-一个轻量级的鸡尾酒配方管理网站，支持搜索、分类筛选、瀑布流浏览和中英双语切换（开发中）。
-This is a light weighted management website for your cocktail recipe.
-You are able to create your own recipe and find existing recipe by tag, searching, categorising and browsing.
-English interface is still in development, so the browser built-in translation is recommended. 
+⭐ 功能特点
+添加自定义鸡尾酒配方  
+在浏览器中直接创建并保存属于你的配方。
 
-## ✨ 功能特性
+编辑与删除配方  
+完整的配方管理能力，让你的鸡尾酒资料库保持整洁。
 
-- 🔍 **搜索与排序** — 按名称、基酒、风味标签快速检索，支持多种排序方式
-- 🏷️ **分类筛选** — 侧边栏按类别（经典/热带/现代等）和基酒（金酒/伏特加/朗姆等）筛选
-- 🎨 **双主题** — 星夜主题（深蓝色）与经典主题（棕色）一键切换
-- ➕ **自定义配方** — 可新增、编辑、删除自己的鸡尾酒配方，酒柜功能可以记录自己有哪些酒和材料。数据保存在本地浏览器。
-- 🖼️ **图片支持** — 每款鸡尾酒支持外链图片
-- ⭐ **评分系统** — 为每款酒打分，方便记录个人偏好
-- （开发中）中文英文双语支持。
+内置少量默认示例  
+初次使用时会自动加载几个经典鸡尾酒作为示例。
 
-  ## 🚀 使用方式
+localStorage 持久化存储  
+刷新页面、关闭浏览器后数据仍然保留，除非你手动清除浏览器存储。
 
-1. 克隆仓库到本地
-2. 直接在浏览器中打开 `index.html` 即可使用
+材料别名系统  
+支持为材料添加别名，方便搜索与整理。
 
+个人“酒柜”功能  
+记录你当前拥有的酒类与材料。
+
+纯前端、无需安装  
+无需服务器即可运行，可部署在任何静态托管平台。
+
+📦 工作原理
+Cocktail Library 完全由：
+
+HTML
+
+CSS
+
+JavaScript
+
+构成。
+
+页面加载时：
+
+检查 localStorage 是否已有用户数据
+
+若无，则写入默认示例配方
+
+用户新增或修改的内容会实时保存到 localStorage
+
+数据会一直保留，直到用户手动清除浏览器存储
+
+由于使用了 ES Modules：
+
+👉 不能直接双击打开 index.html 运行  
+👉 必须通过 本地服务器 或使用 线上 Demo
+
+🚀 在线体验（Live Demo）
+你可以直接访问线上版本：
+
+https://yqxp.github.io/Cocktail_Library
+
+无需安装、无需配置。
+
+🛠 本地运行方式
+由于项目使用了 ES Modules，必须通过本地服务器运行，例如：
+
+方法一：使用 VS Code Live Server
+安装 Live Server 插件
+
+右键 index.html → “Open with Live Server”
+
+方法二：使用 Python 本地服务器（你指定的方式）
+bash
+py -3 -m http.server 8080
+然后访问：
+
+代码
+http://localhost:8080
+🔒 数据存储说明
+所有用户数据均存储在浏览器的：
+
+代码
+localStorage
+要重置应用，只需清除浏览器的 localStorage。
+
+🇬🇧 English Version
+A lightweight, browser‑based cocktail recipe manager designed for people who enjoy mixology and want a simple way to organize their own recipes.
+This project is a pure front‑end web application — no backend, no database, no server required.
+All user data is stored locally using localStorage, making it fast, private, and easy to use.
+
+⭐ Features
+Add your own cocktail recipes  
+Create and save custom recipes directly in your browser.
+
+Edit or delete existing recipes  
+Full control over your personal cocktail collection.
+
+Default example cocktails included  
+A few classic recipes are provided as initial examples.
+
+LocalStorage‑based data persistence  
+Your recipes stay saved even after refreshing or closing the browser.
+
+Ingredient alias system  
+Manage alternative ingredient names for easier searching.
+
+Personal “Liquor Cabinet”  
+Track what bottles you currently have at home.
+
+No installation required  
+Runs entirely in the browser and can be hosted anywhere.
+
+📦 How It Works
+This project is built entirely with:
+
+HTML
+
+CSS
+
+JavaScript
+
+On page load:
+
+The app checks whether localStorage already contains user data
+
+If not, it loads a set of default example recipes
+
+Any new recipes you create are saved to localStorage
+
+Your data remains available until you manually clear your browser storage
+
+Because the project uses ES Modules:
+
+👉 You cannot run it by opening index.html directly  
+👉 You must use a local server or the Live Demo
+
+🚀 Live Demo
+Try the hosted version here:
+
+https://yqxp.github.io/Cocktail_Library
+
+No installation required.
+
+🛠 Local Development
+Since ES Modules require a proper origin, you must run the project using a local server.
+
+Option 1: VS Code Live Server
+Install the Live Server extension
+
+Right‑click index.html → “Open with Live Server”
+
+Option 2: Python local server (your preferred method)
+bash
+py -3 -m http.server 8080
+Then open:
+
+代码
+http://localhost:8080
+🔒 Data Storage
+All user‑generated content is stored in:
+
+代码
+localStorage
+To reset the app, simply clear your browser’s localStorage.
